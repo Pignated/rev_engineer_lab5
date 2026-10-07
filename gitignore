@@ -1,0 +1,31 @@
+# --- Compiler build artifacts ---
+*.o
+*.obj
+*.a
+*.so
+*.out
+a.out
+
+# --- Core dumps ---
+core
+core.*
+vgcore.*
+
+# --- GDB ---
+.gdb_history
+
+# --- Editor / OS cruft ---
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- LAB-SPECIFIC: binaries students compile themselves in Lab 5 ---
+# (the provided executables in src/ -- grid_bin, globals_bin, strings_bin, mystery_bin -- stay tracked)
+src/steps
+src/grid
+steps
+grid
